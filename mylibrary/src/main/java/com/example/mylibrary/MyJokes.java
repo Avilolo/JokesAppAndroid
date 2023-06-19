@@ -11,7 +11,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MyJokes {
-    private static final String API_URL = "http://192.168.1.173:8080";
+    private static final String API_URL = "http://172.17.128.1:8080";
     private OkHttpClient client;
     private Gson gson;
 
